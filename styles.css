@@ -1,0 +1,49 @@
+* {
+    transition: all 0.25s;
+}
+
+body {
+    background: steelblue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.tablero-juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preguntas{
+    width: 900px;
+}
+.respuetas-correctas{
+    width: 600px;
+}
+#encabezado{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.respuestas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    width: 150px;
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mostrar-img{
+    height: 700px;
+}
