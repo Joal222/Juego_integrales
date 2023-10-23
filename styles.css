@@ -23,7 +23,7 @@ body {
 .respuetas-correctas{
     width: 600px;
 }
-#encabezado{
+.encabezado{
     background: white;
     display: flex;
     justify-content: center;
@@ -31,6 +31,8 @@ body {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .respuestas{
     display: flex;
@@ -46,4 +48,23 @@ body {
 }
 .mostrar-img{
     height: 700px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.option:hover {
+    cursor: pointer;
+    transform: scale(1.1); /* Escala al 110% del tamaño original */
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.imgPregunta{
+    width: 200px;
+    height: 200px;
 }

@@ -1,0 +1,19 @@
+[
+    {
+        "categoria": "Integrales Basicas",
+        "pregunta": "Imagenes/basicas/facil/ejercicio1/paso1/ejercicio_1.jpg",
+        "texto": "Elija una opción correcta",
+        "respuesta": "Imagenes/basicas/facil/ejercicio1/paso1/respuestas/correcta.jpg",
+        "incorrecta1": "Imagenes/basicas/facil/ejercicio1/paso1/respuestas/incorrecta_1.jpg",
+        "incorrecta2": "Imagenes/basicas/facil/ejercicio1/paso1/respuestas/incorrecta_2.jpg"
+    },
+    {
+        "categoria": "Integrales Basicas",
+        "pregunta": "Imagenes/basicas/facil/ejercicio1/paso2/correcta_paso_1.jpg",
+        "texto": "Elija una opción correcta",
+        "respuesta": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/respuesta_final.jpg",
+        "incorrecta1": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/incorrecta_1.jpg",
+        "incorrecta2": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/incorrecta_2.jpg"
+    }
+    
+]
