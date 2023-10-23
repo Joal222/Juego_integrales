@@ -1,63 +1,94 @@
-// Función para mezclar las respuestas
-function mezclarRespuestas(respuesta, incorrecta1, incorrecta2) {
-    const opciones = [respuesta, incorrecta1, incorrecta2];
-    opciones.sort(() => Math.random() - 0.5); // Mezcla las respuestas al azar
-    return opciones;
-}
+var opciones = [];
 
-// Función para escoger una pregunta aleatoria y mostrarla
-function escogerPreguntaAleatoria() {
-    let basePreguntas = readText("ejercicios-basicos.json");
-    let interpreteBP = JSON.parse(basePreguntas);
-    
-    const indiceAleatorio = Math.floor(Math.random() * interpreteBP.length);
-    pregunta = interpreteBP[indiceAleatorio];
-    
-    select_id("categoria").innerHTML = pregunta.categoria;
-    select_id("pregunta").getElementsByTagName("img")[0].src = pregunta.pregunta;
-    
-    // Mezclar las respuestas antes de mostrarlas
-    const respuestasMezcladas = mezclarRespuestas(
-        pregunta.respuesta,
-        pregunta.incorrecta1,
-        pregunta.incorrecta2
-    );
-    
-    select_id("btn1").getElementsByTagName("img")[0].src = respuestasMezcladas[0];
-    select_id("btn2").getElementsByTagName("img")[0].src = respuestasMezcladas[1];
-    select_id("btn3").getElementsByTagName("img")[0].src = respuestasMezcladas[2];
-}
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('ejercicios-basicos.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Datos JSON cargados con éxito
+                    var datosJSON = data;
 
-// Función para verificar la respuesta seleccionada
-function verificarRespuesta(elementoRespuesta) {
-    const respuestaSeleccionada = elementoRespuesta.getElementsByTagName('img')[0].getAttribute('src');
-    
-    if (respuestaSeleccionada === pregunta.respuesta) {
-        // Respuesta correcta
-        alert("¡Respuesta correcta!");
-        escogerPreguntaAleatoria(); // Mostrar la siguiente pregunta
-    } else {
-        // Respuesta incorrecta, puedes mostrar un mensaje de error
-        alert("Respuesta incorrecta. Intenta de nuevo.");
-    }
-}
+                    // Obtén una referencia a los elementos en HTML
+                    var preguntaContainer = document.getElementById("pregunta");
+                    var opcionesRespuesta = document.getElementById("opcionesRespuesta");
 
-// Función para seleccionar un elemento por su ID
-function select_id(id) {
-    return document.getElementById(id);
-}
+                    // Variables para el seguimiento de preguntas y arreglos
+                    var currentArrayIndex = 0;
+                    var currentQuestionIndex = 0;
 
-// Función para leer un archivo de texto mediante una solicitud XMLHttpRequest
-function readText(ruta_local) {
-    var texto = null;
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", ruta_local, false);
-    xmlhttp.send();
-    if (xmlhttp.status == 200){
-        texto = xmlhttp.responseText;
-    }
-    return texto;
-}
+                    // Función para mostrar una pregunta
+                    function mostrarPregunta() {
+                        var pregunta = datosJSON[currentArrayIndex][currentQuestionIndex];
+                        preguntaContainer.querySelector("h2").textContent = pregunta.categoria;
+                    
+                        var imagenPregunta = preguntaContainer.querySelector("img");
+                        imagenPregunta.src = pregunta.pregunta;
+                        imagenPregunta.alt = "Pregunta";
+                    
+                        // Almacena las opciones de respuesta en la variable global
+                        opciones = [pregunta.respuesta, pregunta.incorrecta1, pregunta.incorrecta2];
+                        opciones = shuffle(opciones);
+                    
+                        opcionesRespuesta.innerHTML = '';
+                        opciones.forEach(function(opcion) {
+                            var botonRespuesta = document.createElement("button");
+                            var imagenOpcion = document.createElement("img");
+                            imagenOpcion.src = opcion;
+                            imagenOpcion.alt = "Opción de respuesta";
+                            botonRespuesta.appendChild(imagenOpcion);
+                            botonRespuesta.addEventListener("click", function() {
+                                verificarRespuesta(opcion);
+                            });
+                            opcionesRespuesta.appendChild(botonRespuesta);
+                        });
+                    }
+                    
 
-// Llama a la función para cargar la primera pregunta
-escogerPreguntaAleatoria();
+                    // Función para verificar la respuesta
+                    function verificarRespuesta(respuestaUsuario) {
+                        var pregunta = datosJSON[currentArrayIndex][currentQuestionIndex];
+                        var cuadroRespuestas = document.getElementById("cuadroRespuestas");
+                    
+                        if (respuestaUsuario === pregunta.respuesta) {
+                           
+                            
+                            if (currentQuestionIndex === datosJSON[currentArrayIndex].length - 1) {
+                                cuadroRespuestas.innerHTML = ''; // Borra el cuadro de respuestas al finalizar el conjunto
+                            }
+                    
+                            // Agrega el ejercicio al cuadro de respuestas correctas
+                            var imagenEjercicio = document.createElement("img");
+                            imagenEjercicio.src = pregunta.pregunta;
+                            cuadroRespuestas.appendChild(imagenEjercicio);
+                            
+                            currentQuestionIndex++;
+                            
+                            if (currentQuestionIndex >= datosJSON[currentArrayIndex].length) {
+                                currentArrayIndex++;
+                                currentQuestionIndex = 0;
+                            }
+                            
+                            if (currentArrayIndex < datosJSON.length) {
+                                mostrarPregunta();
+                            } else {
+                                alert("Has completado todas las preguntas.");
+                            }
+                        } else {
+                            alert("Respuesta incorrecta. Inténtalo de nuevo.");
+                        }
+                    }
+                    
+
+                    // Función para barajar las opciones de respuesta
+                    function shuffle(array) {
+                        for (var i = array.length - 1; i > 0; i--) {
+                            var j = Math.floor(Math.random() * (i + 1));
+                            [array[i], array[j]] = [array[j], array[i]];
+                        }
+                        return array;
+                    }
+
+                    // Inicializar mostrando la primera pregunta
+                    mostrarPregunta();
+                })
+                .catch(error => console.error('Error al cargar los datos JSON:', error));
+        });

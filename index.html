@@ -22,33 +22,14 @@
 
     <div class="tablero-juego" id="tablero-juego">
         <section class="preguntas">
-            <div class="encabezado">
-                <div class="categoria" id="categoria">
-                    categoría
-                </div>
-                <div class="pregunta" id="pregunta">
-                    <img class="imgPregunta" src="" alt="pregunta">
-                </div>
-            </div>
-
-            <div class="respuestas" id="respuestas">
-                <div class="option" id="btn1" onclick="verificarRespuesta(this)">
-                    <img class="img" src="" alt="Respuesta 1">
-                </div>
-
-                <div class="option" id="btn2" onclick="verificarRespuesta(this)">
-                    <img class="img" src="" alt="Respuesta 2">
-                    
-                </div>
-
-                <div class="option" id="btn3" onclick="verificarRespuesta(this)">
-                    <img class="img" src="" alt="Respuesta 3">
-                    
-                </div>
+            <div class="encabezado" id="pregunta">
+                <h2>Categoria</h2>              
+                <img class="imgPregunta" src="" alt="Pregunta">               
+                <div class="respuestas" id="opcionesRespuesta"></div>
             </div>
         </section>
         <section class="respuetas-correctas" id="respuetas-correctas">
-            <div class="mostrar-img" id="encabezado"></div>
+            <div class="mostrar-img" id="cuadroRespuestas"></div>
         </section>
     </div>
     <script src="script.js"></script>
