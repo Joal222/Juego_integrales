@@ -61,7 +61,7 @@ body {
     border-radius: 10px;
 }
 .imagen-respuesta:hover {
-    cursor: pointer;
+    cursor: pointer     ;
     transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
     transition: transform 0.3s; /* Agrega una transición suave */
 }

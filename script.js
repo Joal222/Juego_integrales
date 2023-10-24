@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
       var preguntaContainer = document.getElementById("pregunta");
       var opcionesRespuesta = document.getElementById("opcionesRespuesta");
       var cuadroRespuestas = document.getElementById("cuadroRespuestas");
+      var texto = document.getElementById("texto");
 
       var currentArrayIndex = 0;
       var currentQuestionIndex = 0;
+
       function mostrarPregunta() {
         if (currentArrayIndex < datosJSON.length) {
           var pregunta = datosJSON[currentArrayIndex][currentQuestionIndex];
@@ -21,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
           var imagenPregunta = preguntaContainer.querySelector(".imgPregunta");
           imagenPregunta.src = pregunta.pregunta;
           imagenPregunta.alt = "Pregunta";
+
+          texto.textContent=pregunta.texto;
 
           opciones = [pregunta.respuesta, pregunta.incorrecta1, pregunta.incorrecta2];
           opciones = shuffle(opciones);
@@ -66,13 +70,25 @@ document.addEventListener("DOMContentLoaded", function () {
             imagenEjercicio.style.width="150px";
             imagenEjercicio.style.height="75px";
             cuadroRespuestas.appendChild(imagenEjercicio);
-            alert("Excelente");
+            Swal.fire({
+              position: 'center',
+              icon: 'success',
+              title: 'Excelente',
+              showConfirmButton: false,
+              timer: 1000
+            });
       
             if (currentQuestionIndex === datosJSON[currentArrayIndex].length - 1) {
               cuadroRespuestas.innerHTML = ''; // Limpia el cuadro de respuestas antes de avanzar
               currentQuestionIndex++;
               if (currentQuestionIndex>0) {
-                alert("cambiando")
+                Swal.fire({
+                  position: 'top-end',
+                  icon: 'success',
+                  title: 'Ejercicio Resuelto',
+                  showConfirmButton: false,
+                  timer: 2000
+                })
               }
       
               if (currentQuestionIndex >= datosJSON[currentArrayIndex].length) {
@@ -88,7 +104,13 @@ document.addEventListener("DOMContentLoaded", function () {
             }
           } else {
             cuadroRespuestas.innerHTML = ''; // Limpiar el cuadro de respuestas
-            alert("Respuesta incorrecta. Regresando al paso 1 del arreglo.");
+            Swal.fire({
+              position: 'center',
+              icon: 'warning',
+              title: 'respuesta Incorrecta',
+              showConfirmButton: false,
+              timer: 1000
+            })
             currentQuestionIndex = 0;
             mostrarPregunta(); // Vuelve al paso 1 del arreglo en caso de respuesta incorrecta
           }

@@ -6,7 +6,7 @@
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/basicas/facil/ejercicio1/paso1/respuestas/correcta.jpg",
             "incorrecta1": "Imagenes/basicas/facil/ejercicio1/paso1/respuestas/incorrecta_1.jpg",
-            "incorrecta2": "Imagenes/basicas/facil/ejercicio1/paso1/respuestas/incorrecta_2.jpg"
+            "incorrecta2": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/incorrecta_2.jpg"
         },
         {
             "categoria": "Integrales Basicas",
@@ -14,7 +14,7 @@
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/respuesta_final.jpg",
             "incorrecta1": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/incorrecta_1.jpg",
-            "incorrecta2": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/incorrecta_1.jpg"
+            "incorrecta2": "Imagenes/basicas/facil/ejercicio1/paso2/respuestas/incorrecta_2.jpg"
         }
     ],
     [
@@ -90,9 +90,241 @@
             "categoria": "Integrales Basicas",
             "pregunta": "Imagenes/basicas/facil/ejercicio3/Paso_4/correcta_paso_3.png",
             "texto": "Elija una opción correcta",
-            "respuesta": "Imagenes/basicas/facil/ejercicio3/Paso_4/respuestas/respuesta_final.png",
+            "respuesta": "Imagenes/basicas/facil/ejercicio3/Paso_4/respuestas/incorrecta_2.png",
             "incorrecta1": "Imagenes/basicas/facil/ejercicio3/Paso_4/respuestas/incorrecta.png",
-            "incorrecta2": "Imagenes/basicas/facil/ejercicio3/Paso_4/respuestas/incorrecta_2.png"
+            "incorrecta2": "Imagenes/basicas/facil/ejercicio3/Paso_4/respuestas/respuesta_final.png"
+        }
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_1/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_1/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_1/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_1/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_2/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_2/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_2/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_2/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_3/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_3/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_3/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_3/RESPUESTAS/INCORRECTA2.jpg"
+        }
+        ,
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_4/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_4/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_4/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_4/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_5/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_5/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_5/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_5/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_6/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_6/RESPUESTAS/RESPUESTA_FINAL.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_6/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_1/PASO_6/RESPUESTAS/INCORRECTA2.jpg"
+        }
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_1/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_1/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_1/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_1/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_2/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_2/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_2/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_2/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_3/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_3/RESPUESTAS/RESPUESTA_FINAL.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_3/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_2/PASO_3/RESPUESTAS/INCORRECTA2.jpg"
+        }
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/ejercicio_3/PASO1/EJERCICIO_INTERMEDIO_1.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/ejercicio_3/PASO1/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/ejercicio_3/PASO1/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/ejercicio_3/PASO1/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/ejercicio_3/PASO2/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/ejercicio_3/PASO2/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/ejercicio_3/PASO2/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/ejercicio_3/PASO2/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/ejercicio_3/PASO3/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/ejercicio_3/PASO3/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/ejercicio_3/PASO3/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/ejercicio_3/PASO3/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/ejercicio_3/PASO4/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_3/PASO4/RESPUESTAS/CORRECTA.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_3/PASO4/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_3/PASO4/RESPUESTAS/INCORRECTA2.jpg"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/dificil/ejercicio_3/PASO5/EJERCICIO.jpg",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/dificil/EJERCICIO_3/PASO5/RESPUESTAS/RESPUESTA_FINAL.jpg",
+            "incorrecta1": "Imagenes/basicas/dificil/EJERCICIO_3/PASO5/RESPUESTAS/INCORRECTA1.jpg",
+            "incorrecta2": "Imagenes/basicas/dificil/EJERCICIO_3/PASO5/RESPUESTAS/INCORRECTA2.jpg"
+        }
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio1/paso1/ejercicio.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio1/paso1/respuestas/opcion_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio1/paso1/respuestas/opcion_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio1/paso1/respuestas/opcion_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio1/paso2/opcion_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio1/paso2/respuestas/opcion_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio1/paso2/respuestas/opcion_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio1/paso2/respuestas/opcion_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio1/paso3/opcion_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio1/paso3/respuestas/respuestas_final.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio1/paso3/respuestas/opcion_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio1/paso3/respuestas/opcion_incorrecta_2.png"
+        }   
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio2/paso1/ejercicio.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio2/paso1/respuestas/opcion_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio2/paso1/respuestas/opcion_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio2/paso1/respuestas/opcion_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio2/paso2/opcion_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio2/paso2/respuestas/respueta_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio2/paso2/respuestas/opcion_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio2/paso2/respuestas/opcion_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio2/paso3/respueta_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio2/paso3/respuestas/respuesta_final.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio2/paso3/respuestas/opcion_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio2/paso3/respuestas/opcion_incorrecta_2.png"
+        }
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio3/paso1/ejercicio.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio3/paso1/respuestas/respuesta_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio3/paso1/respuestas/opcin_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio3/paso1/respuestas/opcin_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio3/paso2/respuesta_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio3/paso2/respuestas/respuesta_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio3/paso2/respuestas/respueta_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio3/paso2/respuestas/respueta_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio3/paso3/respuesta_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio3/paso3/respuestas/respuesta_final.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio3/paso3/respuestas/respuesta_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio3/paso3/respuestas/respuesta_incorrecta_2.png"
+        }
+    ],
+    [
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio4/paso1/ejercicio.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio4/paso1/respuestas/respuesta_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio4/paso1/respuestas/respueta_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio4/paso1/respuestas/respueta_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio4/paso2/respuesta_correcta_paso1.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio4/paso2/respuestas/respuesta_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio4/paso2/respuestas/respuesta_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio4/paso2/respuestas/respuesta_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio4/paso3/respuesta_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio4/paso3/respuestas/respuesta_correcta.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio4/paso3/respuestas/respuesta_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio4/paso3/respuestas/respuesta_incorrecta_2.png"
+        },
+        {
+            "categoria": "Integrales Basicas",
+            "pregunta": "Imagenes/basicas/intermedio/ejercicio4/paso4/respuesta_correcta.png",
+            "texto": "Elija una opción correcta",
+            "respuesta": "Imagenes/basicas/intermedio/ejercicio4/paso4/respuestas/respuesta_final.png",
+            "incorrecta1": "Imagenes/basicas/intermedio/ejercicio4/paso4/respuestas/respuesta_incorrecta_1.png",
+            "incorrecta2": "Imagenes/basicas/intermedio/ejercicio4/paso4/respuestas/respuesta_incorrecta_2.png"
         }
     ]
+
 ]
