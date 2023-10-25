@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
 }
 .tablero-juego{
+    height: 53.1vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,8 +55,8 @@ body {
     height: 700px;
     background: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -70,6 +71,8 @@ body {
     height: 100px;
 }
 .imgPregunta{
-    width: 350px;
-    height: 200px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-size: cover;
 }

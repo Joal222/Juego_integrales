@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Juego Integrales-Basicas</title>
+    <title>Juego Integrales-Por-Partes</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +13,11 @@
     <meta property="og:title" content="Juego Integrales">
     <meta property="og:description" content="Version 1">
     <meta property="og:image" content="width=device-width, initial-scale=1.0">
-
+    
     <!--Links-->
     <link rel="stylesheet" href="styles.css">
 
 </head>
-
 
 <body>
     <style>
@@ -83,6 +82,7 @@
             align-items: center;
         }
         #ejercicios{
+            height: 53.1vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -118,6 +118,25 @@
         </div>
     </div>
     <div id="ejercicios">
+        <div class="tablero-juego" id="tablero-juego">
+            <section class="preguntas">
+                <div class="encabezado" id="pregunta">
+                    <h2>Categoria</h2>              
+                    <img class="imgPregunta" src="" alt="Pregunta">  
+                    <div class="texto" id="texto"></div>                             
+                    <div class="respuestas" id="opcionesRespuesta"></div>
+                </div>
+                <div class="texto" id="texto"></div> 
+            </section>
+            <section class="respuetas-correctas" id="respuetas-correctas">
+                <div class="mostrar-img" id="cuadroRespuestas"></div>
+            </section>
+            <div id="respuestasCorrectas" class="respuestas-correctas"></div>
+        </div>
     </div>
-    </body>
+    <script src="basicas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
 </html>
+
