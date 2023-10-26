@@ -1,7 +1,7 @@
 [
     [
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/facil/ejercicio_1/paso1/ejercicio.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/facil/ejercicio_1/paso1/respuestas/correcta.png",
@@ -9,7 +9,7 @@
             "incorrecta2": "Imagenes/sustitucion/facil/ejercicio_1/paso1/respuestas/incorrecta2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/facil/ejercicio_1/paso2/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/facil/ejercicio_1/paso2/respuestas/correcta.png",
@@ -17,7 +17,7 @@
             "incorrecta2": "Imagenes/sustitucion/facil/ejercicio_1/paso2/respuestas/incorrecta2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/facil/ejercicio_1/paso3/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/facil/ejercicio_1/paso3/respuestas/correcta_final.png",
@@ -27,7 +27,7 @@
     ],
     [
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO1/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO1/RESPUESTAS/CORRECTA.jpg",
@@ -35,7 +35,7 @@
             "incorrecta2": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO1/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO2/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO2/RESPUESTAS/CORRECTA.jpg",
@@ -43,7 +43,7 @@
             "incorrecta2": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO2/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO3/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO3/RESPUESTAS/CORRECTA.jpg",
@@ -51,7 +51,7 @@
             "incorrecta2": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO3/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO4/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/EJERCICIO1/PASO4/RESPUESTAS/RESULTADO_FINAL.jpg",
@@ -61,7 +61,7 @@
     ],
     [
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/ejercicio2/paso_1/ejercicio.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/ejercicio2/paso_1/respuestas/correcta.png",
@@ -69,7 +69,7 @@
             "incorrecta2": "Imagenes/sustitucion/dificil/ejercicio2/paso_1/respuestas/incorrecta2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/ejercicio2/paso_2/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/ejercicio2/paso_2/respuestas/correcta.png",
@@ -77,7 +77,7 @@
             "incorrecta2": "Imagenes/sustitucion/dificil/ejercicio2/paso_2/respuestas/incorrecta2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/dificil/ejercicio2/paso_3/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/dificil/ejercicio2/paso_3/respuestas/correcta_final.png",
@@ -87,7 +87,7 @@
     ],
     [
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO1/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO1/RESPUESTAS/CORRECTA.jpg",
@@ -95,7 +95,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO1/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO2/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO2/RESPUESTAS/CORRECTA.jpg",
@@ -103,7 +103,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO2/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO3/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO3/RESPUESTAS/CORRECTA.jpg",
@@ -111,7 +111,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO3/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO4/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO4/RESPUESTAS/CORRECTA.jpg",
@@ -119,7 +119,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO4/RESPUESTAS/INCORRECTA2.jpg"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO5/EJERCICIO.jpg",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio_1/PASO5/RESPUESTAS/RESPUESTA_FINAL.jpg",
@@ -129,7 +129,7 @@
     ],
     [
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_1/ejercicio.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_1/respuestas/correcta.png",
@@ -137,7 +137,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio2/paso_1/respuestas/incorrecto2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_2/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_2/respuestas/correcta.png",
@@ -145,7 +145,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio2/paso_2/respuestas/incorrecto2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_3/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_3/respuestas/correcta.png",
@@ -153,7 +153,7 @@
             "incorrecta2": "Imagenes/sustitucion/intermedio/ejercicio2/paso_3/respuestas/incorrecta2.png"
         },
         {
-            "categoria": "Integrales Basicas",
+            "categoria": "Integrales por Sustitución",
             "pregunta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_4/correcta.png",
             "texto": "Elija una opción correcta",
             "respuesta": "Imagenes/sustitucion/intermedio/ejercicio2/paso_4/respuestas/correcta_final.png",
